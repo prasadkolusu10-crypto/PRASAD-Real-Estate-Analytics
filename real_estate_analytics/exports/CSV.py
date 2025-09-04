@@ -9,7 +9,7 @@ app = Flask(__name__)
 db_config = {
     'host': 'localhost',
     'user': 'root',
-    'password': 'Prasad@123', 
+    'password': 'Your Password', 
     'database': 'real_estate'
 }
 
@@ -144,3 +144,4 @@ def export():
 
 if __name__ == '__main__':
     app.run(debug=True)
+
